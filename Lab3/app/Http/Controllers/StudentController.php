@@ -17,14 +17,15 @@ class StudentController extends Controller
     {
 
         $validated = $request->validate([
-            'firstname' => 'required',
-            'lastname' => 'required',
-            'student_number' => 'required',
-            'gender' => 'required',
-            'birthday' => 'required',
-            'course' => 'required',
-            'email' => 'required|email',
-            'contact_number' => 'required',
+            'firstnameYEE' => 'required',
+            'lastnameYEE' => 'required',
+'addressYEE' => 'required',
+            'priceYee' => 'required',
+            'checkInYEE' => 'required',
+           'daysYEE' => 'required|integer',
+        'guestsYEE' => 'required|integer',
+            'emailYEE' => 'required|email',
+            'contact_numberYEE' => 'required',
 
         ]);
 
